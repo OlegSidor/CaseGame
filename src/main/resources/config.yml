@@ -1,0 +1,52 @@
+time: 600
+maxMobSpawn: 10
+temporaryBlockRemove: 5
+knockOutTimer: 60
+temporaryBlocksAmount: 20
+temporaryBlockMaxHeight: 100
+spawnPeriod: 15
+defaultKit: 'wizard'
+teams:
+    RED: "&4Красные"
+    BLUE: "&9Синие"
+maxAirDropCount: 2
+allowedAirDrops:
+  - 'medium'
+airdrop:
+  pack1:
+    - 'IRON_SWORD 1 /sharpness 2 unbreaking 10'
+    - 'COOKED_BEEF 32'
+    - 'POTION:REGEN 5'
+    - 'SPLASH_POTION:STRENGTH 1'
+    - 'IRON_CHESTPLATE 1 /protection 3 unbreaking 10'
+    - 'LEATHER_LEGGINGS 1 /protection 5 unbreaking 10'
+    - 'DIAMOND_BOOTS 1 /protection 10 unbreaking 10'
+  pack2:
+    - 'APPLE 10'
+  pack3:
+    - 'POTION:REGEN:1 5'
+#prize:
+#  1v1:
+#    '1000': 'dc addkeys %p Test 1'
+#    '1200': 'dc addkeys %p Test 1'
+#    '1500': 'dc addkeys %p Test 1'
+#  2v2:
+#    '1000': 'dc addkeys %p Test 1'
+#    '1200': 'dc addkeys %p Test 1'
+#    '1500': 'dc addkeys %p Test 1'
+#  3v3:
+#    '1000': 'dc addkeys %p Test 1'
+#    '1200': 'dc addkeys %p Test 1'
+#    '1500': 'dc addkeys %p Test 1'
+#  5v5:
+#    '1000': 'dc addkeys %p Test 1'
+#    '1200': 'dc addkeys %p Test 1'
+#    '1500': 'dc addkeys %p Test 1'
+mobChances:
+  HighSchool: 5
+  Rat: 10
+  YourMother: 15
+  GrandMother: 25
+  Gopar: 45
+allowedCmd:
+  - cg leave

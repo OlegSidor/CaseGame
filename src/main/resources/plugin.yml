@@ -1,0 +1,9 @@
+name: CaseGame
+main: smartcraft.casegame.CaseGame
+version: 2.5
+api-version: 1.13
+commands:
+  cg:
+    usage: /cg <leave/join> (arena name)
+  cga:
+    usage: /cga <create/remove/smsa/skr/setspawn> <arena name> <player count / team1/team2>
